@@ -92,64 +92,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       
-      {/* Stats Section */}
-      <section className="bg-red-600 text-white py-12 rounded-lg">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold mb-2">10,000+</div>
-              <p className="text-xl">Registered Donors</p>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">5,000+</div>
-              <p className="text-xl">Lives Saved</p>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">500+</div>
-              <p className="text-xl">Cities Covered</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Testimonials */}
-      <section className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Testimonials</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="flex items-center mb-4">
-              <div className="h-12 w-12 bg-gray-200 rounded-full mr-4"></div>
-              <div>
-                <h3 className="font-semibold text-lg">John Doe</h3>
-                <p className="text-gray-600">Recipient</p>
-              </div>
-            </div>
-            <p className="text-gray-700">
-              "BloodConnect helped me find a donor in an emergency situation for my mother. The quick response saved her life. I'm forever grateful to this platform."
-            </p>
-            <div className="flex mt-4">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <Award key={star} className="h-5 w-5 text-yellow-500" />
-              ))}
-            </div>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="flex items-center mb-4">
-              <div className="h-12 w-12 bg-gray-200 rounded-full mr-4"></div>
-              <div>
-                <h3 className="font-semibold text-lg">Jane Smith</h3>
-                <p className="text-gray-600">Donor</p>
-              </div>
-            </div>
-            <p className="text-gray-700">
-              "Being a part of BloodConnect gives me immense satisfaction. I've donated multiple times through connections made on this platform, and it feels great to help save lives."
-            </p>
-           
-          </div>
-        </div>
-      </section>
+   
       
       {/* CTA Section */}
       <section className="bg-gray-900 text-white py-12 rounded-lg text-center">
