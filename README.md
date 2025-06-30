@@ -4,7 +4,7 @@ Blood Connect is a web application built with Bolt and Supabase that helps peopl
 
 ## 🌐 Live Demo
 
-[Visit Live Site](https://your-netlify-site-url.netlify.app)
+[Visit Live Site](https://bloodwebsite.netlify.app)
 
 ## 🚀 Tech Stack
 
