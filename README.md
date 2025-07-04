@@ -1,6 +1,6 @@
 # Blood Connect 🔴
 
-Blood Connect is a web application built with Bolt and Supabase that helps people find and connect with blood donors in emergencies.
+Blood Connect is a web application  that helps people find and connect with blood donors in emergencies.
 
 ## 🌐 Live Demo
 
